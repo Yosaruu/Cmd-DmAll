@@ -1,13 +1,13 @@
-📩 DMALL Bot Discord
+    📩 DMALL Bot Discord
 
 Un bot Discord simple permettant d’envoyer un message privé à tous les membres d’un serveur (commande réservée aux administrateurs).
 
-⚠️ Avertissement
+    ⚠️ Avertissement
 
 Attention : L’envoi massif de messages privés peut être considéré comme du spam par Discord et entraîner la suspension de ton compte ou du bot.
 Utilise ce script uniquement à des fins éducatives ou sur un serveur privé/test.
 
-🚀 Installation
+    🚀 Installation
 
 1. Installer les dépendances
 
@@ -16,7 +16,7 @@ Puis installe les modules nécessaires :
 
 pip install -U discord.py
 
-⚙️ Configuration
+    ⚙️ Configuration
 
 Ouvre le fichier DMALL.py
 
@@ -29,18 +29,15 @@ TOKEN = "TON_TOKEN_ICI"
 
 PREFIX = "+"
 
-▶️ Lancer le bot
+    ▶️ Lancer le bot
 
-Exécute simplement le script :
-
-python DMALL.py
-
-
+Exécute simplement le script,
 Si tout fonctionne, tu verras dans le terminal :
 
-✅ Connecté en tant que NOM_DU_BOT
+✅ Connecté en tant que NOM_DU_BOT.
 
-💻 Utilisation
+
+    💻 Utilisation
 Commande principale :
 +dmall <message>
 
@@ -52,13 +49,13 @@ Exemple :
 
 ➡️ Le bot enverra ce message en DM à chaque membre du serveur (hors bots).
 
-🔒 Permissions
+    🔒 Permissions
 
 Seuls les administrateurs du serveur peuvent utiliser +dmall.
 
 Si un utilisateur sans permission essaie, il recevra un message d’erreur.
 
-❌ Gestion des erreurs
+    ❌ Gestion des erreurs
 
 Le bot ignore les bots du serveur.
 
