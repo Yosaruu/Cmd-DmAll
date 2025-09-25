@@ -8,11 +8,8 @@ Attention : L’envoi massif de messages privés peut être considéré comme du
 Utilise ce script uniquement à des fins éducatives ou sur un serveur privé/test.
 
 🚀 Installation
-1. Cloner le dépôt
-git clone https://github.com/ton-compte/DMALL-Bot.git
-cd DMALL-Bot
 
-2. Installer les dépendances
+1. Installer les dépendances
 
 Assure-toi d’avoir Python 3.8+ installé.
 Puis installe les modules nécessaires :
@@ -23,7 +20,7 @@ pip install -U discord.py
 
 Ouvre le fichier DMALL.py
 
-Remplace la ligne suivante par ton token Discord :
+Remplace la ligne suivante par le token de ton bot Discord :
 
 TOKEN = "TON_TOKEN_ICI"
 
