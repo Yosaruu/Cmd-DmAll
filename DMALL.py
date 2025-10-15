@@ -3,7 +3,7 @@ from discord.ext import commands
 import asyncio
 
 # ---------------- CONFIG ----------------
-TOKEN = "TON_TOKEN_ICI"  # Mets ton token ici
+TOKEN = "TON_TOKEN_ICI"  # ⚠️ NE JAMAIS partager ce token publiquement !
 PREFIX = "+"
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix=PREFIX, intents=intents)
@@ -12,7 +12,7 @@ bot = commands.Bot(command_prefix=PREFIX, intents=intents)
 @bot.event
 async def on_ready():
     activity = discord.Game("By NotAm")
-    await bot.change_presence(status=discord.Status.online
+    await bot.change_presence(status=discord.Status.online, activity=activity)
     print(f":white_check_mark: Connecté en tant que {bot.user}")
 
 
